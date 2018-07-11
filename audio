@@ -1,0 +1,2 @@
+#change codec of audio file
+sudo ffmpeg -i input.wav -ac 1 -acodec pcm_s16le -ar 8000 output.wav
